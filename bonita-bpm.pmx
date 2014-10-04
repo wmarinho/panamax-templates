@@ -1,0 +1,14 @@
+---
+name: bonita-bpm
+description: 'Bonita BPM template '
+keywords: ''
+type: Default
+documentation: ''
+images:
+- name: bonita
+  source: wmarinho/bonita:6.3.3
+  type: Default
+  ports:
+  - host_port: '8080'
+    container_port: '8080'
+    proto: TCP
