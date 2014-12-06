@@ -1,0 +1,17 @@
+---
+name: pentaho_teste
+description: ''
+keywords: ''
+type: Default
+documentation: ''
+images:
+- name: wmarinho_pentaho-biserver_latest
+  source: wmarinho/pentaho-biserver:latest
+  type: Default
+  environment:
+  - variable: PGHOST
+    value: 172.17.42.1
+  - variable: VIRTUAL_HOST
+    value: pentaho02.aws.local
+  - variable: INSTALL_PLUGIN
+    value: saiku
